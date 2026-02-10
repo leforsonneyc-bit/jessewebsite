@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Jesse Bond</title>
+        <link rel="stylesheet" href="bondStyle.css">
+        <!-- <base href="https://www.Name.com/" target="_blank"> -->
+    </head>
+
+    <body>
+
+        <header class="header">
+            <div class="header-left">
+            <div>
+                <h1>Jesse Bond</h1>
+                <p>Assistant Manager | Digital Art Design Architect</p>
+            </div>
+            </div>
+            <!--This should stay white (other 60%)-->
+            <div class="header-right">
+            <button class="menu-toggle">☰</button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutCopy.html">About Me</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+<!--First threeColumn section (columns 1,2,3)-->
+        <section class="threeColumn">
+            <!--Column 1: Profile Photo-->
+            <div class="column image_column">
+                <img src="images/IMG_0170.JPG" alt="Profile Photo">
+            </div>
+            <!--Column 2: About Me-->
+            <div class="column text_column">
+                <h3>Hello There!</h3>
+                <p> 
+                    I'm a creative strategist and project manager with a background in game development, architecture, and visual storytelling.
+                    I focus on bridging creativity and structure to deliver thoughtful, adaptable approach to problem-solving and execution.
+                </p>
+                <h2><a href="about.html"> 01_About Me</a></h2>
+            </div>
+            <!--Column 3: City photo I am currrently working in-->
+            <div class="column image_column">
+                <img src="images/IMG_0185.JPG" alt="City View">
+            </div>
+        </section>
+<!--Second threeColumn section (columns 4,5,6)-->
+        <section class="threeColumn">
+            <!-- Column 4: Academics / diplomas-->
+            <div class="column academics_work_column">
+                <div>
+                    <p> 
+                        <b>Savannah College of Art and Design (SCAD)</b><br>
+                        BA: Interactive Game Design and Development
+                        
+                    </p>
+                    <p class="arrow">↑</p>
+                    <p>
+                        <b> International Bilingual School</b><br>
+                        IB: International Baccalaureate
+                        
+                    </p>
+                </div>
+                <div>  <h4>02_Academics</h4> </div>
+            </div>
+            <!--Column 8: Parallax (Windowed) image column-->
+            <div class="column parallax_image_column">
+            </div>
+            
+            <!--Column 6: Work experience-->
+            <div class="column academics_work_column">
+
+
+<div class="text-carousel">
+  <input type="radio" name="slide" id="s1" checked>
+  <input type="radio" name="slide" id="s2">
+  <input type="radio" name="slide" id="s3">
+
+  <div class="slides">
+    <div class="slide" id="slide1"> <h3>Bishop Construction, Bourgogne-Franche-Comté, France</h3>
+        <b>Assistant Manager</b><br><br>
+        Assisted with on-site team coordination and daily construction operations.
+    </div>
+    <div class="slide" id="slide2"> <h3>Savannah College of Art and Design, Atlanta, GA</h3>
+        <b>The Fools Descent: Project Manager, Art Director, Level Designer</b><br><br>
+        Managed end-to-end project workflows, from conceptualization through to execution and launch
+    </div>
+    <div class="slide" id="slide3"> <h3>Institute of European Democrats</h3>
+        <b>Lead Narrative Designer for video games</b><br><br>
+        Directed narrative vision, Team managment
+    </div>
+  </div>
+
+  <div class="nav">
+    <label for="s1"></label>
+    <label for="s2"></label>
+    <label for="s3"></label>
+  </div>
+
+
+</div>
+                    <h4>03_Experience</h4>
+            </div>
+        </section>
+<!--Third threeColumn section (columns 7,8,9)-->
+        <section class="threeColumn">
+            <!--Column 7 contact means-->
+            <div class="column contact_column">
+                    <p> You can message me through <br>E-mail or my social Apps </p>
+                    <p><b>Linkin: Jesse Bond's link </b></p>
+                    <p><b>Instagram: Geffry =P</b></p>
+                    <h2>04_Contact </h2>
+                    
+            </div>
+            <!--Column 5 projects-->
+            <div class="column image_animation_column">
+                <img src="images/3.jpeg" alt="Future_Projects">
+            </div>
+            <!--Column 9 Hobbies-->
+            <div class="column resume_column">
+                
+                <p>You can download a PDF copy of my CV bellow</p>
+                <a href="images/JesseBondResume..docx.pdf" target="_blank">Curriculum vitae</a>
+                <h2>
+                    05_My Resume
+                    
+                </h2>
+            </div>
+        </section>
+        <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.style.display =
+            navMenu.style.display === 'block' ? 'none' : 'block';
+        });
+        </script>
+        <footer class="footer">
+  <p>© 2026 Jesse Bond · All rights reserved</p>
+</footer>
+
+    </body>
+</html>
